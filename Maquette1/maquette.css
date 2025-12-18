@@ -167,13 +167,15 @@ margin-right: 100px;
     margin-right: 700px;
     padding: 10px;
     font-size: 20px;
+    text-align: center;
+    align-items: center;
 
 }
 .dos{
     background-color: black;
     padding: 10px;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .tres{
     background-color: #ffffff1a;
@@ -187,5 +189,70 @@ margin-right: 100px;
     .catorce{
         display:flex;
         margin-left:30px ;
+    }
+    .page1{
+        display: flex ;
+    }
+    .page2{
+        border: 1px solid rgb(194, 191, 191);
+        background-color:beige;
+        padding: 40px;
+        font-weight: bolder;
+        margin: 40px;
+        border-radius: 10px;
+    }
+    .page2 h3{
+        color: #f85307;
+    }
+    .page3{
+        border: 1px solid rgb(194, 191, 191);
+        background-color: beige;
+        padding: 40px;
+        font-weight: bold;
+        margin: 40px;
+        border-radius: 10px;
+    }
+    .page3 h3{
+        color: #f85307;
+    }
+    .page4{
+        display: flex;
+        background-color:orangered;
+        padding: 60px;
+    }
+    .page5{
+        background-color: white;
+        margin: 20px;
+        padding: 50px;
+        border-radius: 10px;
+    }
+    .page5 span{
+        color:white ;
+        font-weight: bold;
+        background-color: orangered;
+
+    }
+    .page6{
+        display: flex;
+        background-color: beige;
+        border: 1px solid rgb(194, 191, 191);
+        margin: 40px;
+        
+        
+    }
+    .page6 span{
+        color: orangered;
+        padding:50 px;
+    }
+    .line{
+        padding: 50px;
+        background: linear-gradient(to left,#af0e0e,#640909,#2e0e0e,#f85307);
+padding: 10px 40px ;
+color: white;
+text-decoration: none;
+
+    }
+    .pon{
+        display: flex; 
     }
     
